@@ -1,9 +1,9 @@
 = TI Messenger Dokumantation Website
 
 [WARNING]
-----
+====
 Dies ist ein Proof of Concept für *Specs-as-Code* Idee und keine offizielle Spezifikation. 
-----
+====
 
 Dieses Repository enthält Quellcode für *Specs-as-Code* Website https://kitameg.github.io/docs-tim/
 
