@@ -1,5 +1,6 @@
 = TI Messenger Dokumantation Website
 
+Dieses Repository enthält Quellcode für *Spec-as-Code* Website https://kitameg.github.io/docs-tim/
 
 [source,bash]
 ----
@@ -10,7 +11,7 @@ yarn run build
 == Projektstruktur
 
 * `docs-tim` - Hauptprojekt der https://antora.org[Antora Dokumentation]. Aus dem `gh-pages` Branch dieses Projekt wird mit Antora gebaute Dokumentation als Guthub-Page veröffentlicht. Das Projekt wird nicht strikt versioniert - es referenziert alle für die Dokumentation relevante aktuelle Versionen der Sub-projekte.
-* `arch-tim` - Beschreibung der Architektur basierend auf https://arc42.org/overview/[Arc42 Template]. Das Projekt wird gemeinsam mit "Marketing-Version" der Anwendung versioniert, bspw. ``1.0.x```, ``1.5.x```, ``2.0.x```
+* `arch-tim` - Beschreibung der Architektur basierend auf https://arc42.org/overview/[Arc42 Template]. Das Projekt wird gemeinsam mit "Marketing-Version" der Anwendung versioniert, bspw. `1.0.x`, `1.5.x`, `2.0.x`
 
 
 == Versionen und Branches
