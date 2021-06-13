@@ -1,6 +1,11 @@
 = TI Messenger Dokumantation Website
 
-Dieses Repository enthält Quellcode für *Spec-as-Code* Website https://kitameg.github.io/docs-tim/
+[WARNING]
+----
+Dies ist ein Proof of Concept für *Specs-as-Code* Idee und keine offizielle Spezifikation. 
+----
+
+Dieses Repository enthält Quellcode für *Specs-as-Code* Website https://kitameg.github.io/docs-tim/
 
 [source,bash]
 ----
@@ -10,9 +15,9 @@ yarn run build
 
 == Projektstruktur
 
-* `docs-tim` - Hauptprojekt der https://antora.org[Antora Dokumentation]. Aus dem `gh-pages` Branch dieses Projekt wird mit Antora gebaute Dokumentation als Guthub-Page veröffentlicht. Das Projekt wird nicht strikt versioniert - es referenziert alle für die Dokumentation relevante aktuelle Versionen der Sub-projekte.
+* link:https://github.com/kitameg/docs-tim[docs-tim] - Hauptprojekt der TIM Dokumentation. Die Dokumentation ist geschrieben in https://asciidoctor.org[Asciidoc] und  wird durch https://antora.org[Antora] zu einer Website generiert. Die Website wird im Branch `gh-pages` abgelegt und als Github-Page unter https://kitameg.github.io/docs-tim/ veröffentlicht. Dieses Projekt wird nicht strikt versioniert - es referenziert alle für die Dokumentation relevante aktuelle Versionen der Sub-projekte.
 * link:https://github.com/kitameg/arch-tim[arch-tim] - Beschreibung der Architektur basierend auf https://arc42.org/overview/[Arc42 Template]. Das Projekt wird gemeinsam mit "Marketing-Version" der Anwendung versioniert, bspw. `1.0.x`, `1.5.x`, `2.0.x`
-* link:https://github.com/kitameg/arch-commons[arch-commons] - Enthält die Dokumentation von übergreifenden Konzepten der Gesamtarchitektur der TI. Für TIM relevante Konzepte werden durch TIM Architektur referenziert bzw. in die TIM Architektur inkludiert. 
+* link:https://github.com/kitameg/arch-commons[arch-commons] - Enthält die Dokumentation von übergreifenden Konzepten der Gesamtarchitektur der TI. Für TIM relevante Konzepte werden durch TIM Architektur referenziert bzw. in die TIM Architektur inkludiert. Das Projekt wird unabhängig von TIM versioniert, gestartet wird mit symbolischen Version 10.0.
 
 == Versionen und Branches
 
