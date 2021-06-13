@@ -8,6 +8,7 @@ rm -rf build
 yarn run build
 
 cd build/site/
+touch .nojekyll
 
 git init
 git add -A
@@ -19,6 +20,6 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-git push -f git@github.com:kitameg/docs-tim.git gh-pages
+git push -f git@github.com:kitameg/docs-tim.git main:gh-pages
 
 cd -
