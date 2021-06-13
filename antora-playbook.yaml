@@ -1,0 +1,39 @@
+site:
+  title: TI-Messenger
+  start_page: arch-tim::01_introduction_and_goals.adoc 
+content:
+  sources: 
+#  - url: https://github.com/kitameg/arch-tim.git
+#    branches: 
+#      - 0.1.1
+#  - url: https://github.com/kitameg/arch-commons.git
+  - url: ../arch-commons
+    branches:
+    - master
+  - url: ../arch-tim
+    tags:
+    - 0.1.1
+    - 0.1.2
+    branches: 
+    - wip/0.5
+ui: 
+  bundle:
+    url: https://github.com/kitameg/antora-ui/releases/download/0.1.0/ui-bundle.zip
+#    url: ../antora-ui/build/ui-bundle.zip
+    snapshot: false
+asciidoc:
+  attributes:
+    caution-caption: Achtung
+    important-caption: Wichtig
+    note-caption: Hinweis
+    tip-caption: Tip
+    warning-caption: Warnung
+    toctitle: Navigation
+
+    appendix-caption: Anhang
+    example-caption: Beispiel
+    figure-caption: Abbildung
+    table-caption: Tabelle
+    plantuml-server-url: http://www.plantuml.com/plantuml
+  extensions:
+  - asciidoctor-plantuml

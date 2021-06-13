@@ -1,0 +1,32 @@
+= TI Messenger Dokumantation Website
+
+
+[source,bash]
+----
+yarn install
+yarn run build
+----
+
+== Projektstruktur
+
+* `docs-tim` - Hauptprojekt der https://antora.org[Antora Dokumentation]. Aus dem `gh-pages` Branch dieses Projekt wird mit Antora gebaute Dokumentation als Guthub-Page veröffentlicht. Das Projekt wird nicht strikt versioniert - es referenziert alle für die Dokumentation relevante aktuelle Versionen der Sub-projekte.
+* `arch-tim` - Beschreibung der Architektur basierend auf https://arc42.org/overview/[Arc42 Template]. Das Projekt wird gemeinsam mit "Marketing-Version" der Anwendung versioniert, bspw. ``1.0.x```, ``1.5.x```, ``2.0.x```
+
+
+== Versionen und Branches
+
+Grundsätzlich wird https://semver.org[Semantic Versioning] mit 3 Stellen und ggf. labels verwendet. Zum beispiel:
+
+* 0.2.12
+* 1.0.2
+* 3.0.2-cc1 (comment candidate 1)
+* 2.0.0-rc1 (release candidate 1)
+
+Die ersten beiden Stellen definieren den wesentlichen, Scope und InterOp relevante Version. Die dritte Stelle und Labels sollen oft und großzügig verwendet werden. Releases werden mit entsprechenden Version ge-tagt.  
+
+Bei Benennung der Branches werden "Grouping Tokens", d.h. Text-Labels, die den Zweck des Branches unterstreiche, verwendet:
+
+* `wip/<MAJOR.MINOR>`- Work in Progress
+* `bug/<ID>` - Bugfix
+* `feat/<Name>` - Feature 
+
