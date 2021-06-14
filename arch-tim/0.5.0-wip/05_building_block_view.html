@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bausteinsicht :: TI-Messenger</title>
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <span class="flag"> </span>
+      <a class="navbar-item" href="../..">TI-Messenger</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="logo"></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="arch-tim" data-version="0.5.0-wip">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="01_introduction_and_goals.html">Architektur TI Messenger</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="asciidoc_cheatsheet.html">Asciidoc Cheatsheet</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="01_introduction_and_goals.html">Einführung und Ziele</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="02_architecture_constraints.html">Randbedingungen</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="03_system_scope_and_context.html">Kontextabgrenzung</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="04_solution_strategy.html">Lösungsstrategie</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="05_building_block_view.html">Bausteinsicht</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="06_runtime_view.html">Laufzeitsicht</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="07_deployment_view.html">Verteilungssicht</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="08_concepts.html">Querschnittliche Konzepte</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="09_design_decisions.html">Entscheidungen</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="10_quality_scenarios.html">Qualität</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="11_technical_risks.html">Risiken</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="12_glossary.html">Glossar</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-arc42.html">Über arc42</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Architektur TI Messenger</span>
+    <span class="version">0.5.0-wip</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="01_introduction_and_goals.html">Architektur TI Messenger</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="01_introduction_and_goals.html">0.5.0-wip</a>
+        </li>
+        <li class="version">
+          <a href="../0.1.2/01_introduction_and_goals.html">0.1.2</a>
+        </li>
+        <li class="version">
+          <a href="../0.1.1/01_introduction_and_goals.html">0.1.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../arch-commons/10.0.0-wip/Einführung.html">Gesamtarchitektur</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../arch-commons/10.0.0-wip/Einführung.html">10.0.0-wip</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="01_introduction_and_goals.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="01_introduction_and_goals.html">Architektur TI Messenger</a></li>
+    <li><a href="05_building_block_view.html">Bausteinsicht</a></li>
+  </ul>
+</nav>
+<div class="page-versions">
+  <button class="version-menu-toggle" title="Show other versions of page">0.5.0-wip</button>
+  <div class="version-menu">
+    <a class="version is-current" href="05_building_block_view.html">0.5.0-wip</a>
+    <a class="version" href="../0.1.2/05_building_block_view.html">0.1.2</a>
+    <a class="version" href="../0.1.1/05_building_block_view.html">0.1.1</a>
+  </div>
+</div>
+  <div class="edit-this-page"><a href="https://github.com/kitameg/arch-tim/edit/wip/0.5/modules/ROOT/pages/05_building_block_view.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Bausteinsicht</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<div class="title">Inhalt</div>
+<p>Diese Sicht zeigt die statische Zerlegung des Systems in Bausteine sowie deren Beziehungen.
+Beispiele für Bausteine sind unter anderem:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Module</p>
+</li>
+<li>
+<p>Komponenten</p>
+</li>
+<li>
+<p>Subsysteme</p>
+</li>
+<li>
+<p>Klassen</p>
+</li>
+<li>
+<p>Interfaces</p>
+</li>
+<li>
+<p>Pakete</p>
+</li>
+<li>
+<p>Bibliotheken</p>
+</li>
+<li>
+<p>Frameworks</p>
+</li>
+<li>
+<p>Schichten</p>
+</li>
+<li>
+<p>Partitionen</p>
+</li>
+<li>
+<p>Tiers</p>
+</li>
+<li>
+<p>Funktionen</p>
+</li>
+<li>
+<p>Makros</p>
+</li>
+<li>
+<p>Operationen</p>
+</li>
+<li>
+<p>Datenstrukturen</p>
+</li>
+<li>
+<p>&#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Diese Sicht sollte in jeder Architekturdokumentation vorhanden sein.
+In der Analogie zum Hausbau bildet die Bausteinsicht den <em>Grundrissplan</em>.</p>
+</div>
+<div class="paragraph">
+<div class="title">Motivation</div>
+<p>Behalten Sie den Überblick über den Quellcode, indem Sie die statische Struktur des Systems durch Abstraktion verständlich machen.</p>
+</div>
+<div class="paragraph">
+<p>Damit ermöglichen Sie Kommunikation auf abstrakterer Ebene, ohne zu viele Implementierungsdetails offenlegen zu müssen.</p>
+</div>
+<div class="paragraph">
+<div class="title">Form</div>
+<p>Die Bausteinsicht ist eine hierarchische Sammlung von Blackboxen und Whiteboxen (siehe Abbildung unten) und deren Beschreibungen.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="_images/05_building_blocks-DE.png" alt="Baustein Sichten"></span></p>
+</div>
+<div class="paragraph">
+<p><strong>Ebene 1</strong> ist die Whitebox-Beschreibung des Gesamtsystems, zusammen mit Blackbox-Beschreibungen der darin enthaltenen Bausteine.</p>
+</div>
+<div class="paragraph">
+<p><strong>Ebene 2</strong> zoomt in einige Bausteine der Ebene 1 hinein.
+Sie enthält somit die Whitebox-Beschreibungen ausgewählter Bausteine der Ebene 1, jeweils zusammen mit Blackbox-Beschreibungen darin enthaltener Bausteine.</p>
+</div>
+<div class="paragraph">
+<p><strong>Ebene 3</strong> zoomt in einige Bausteine der Ebene 2 hinein, usw.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_whitebox_gesamtsystem"><a class="anchor" href="#_whitebox_gesamtsystem"></a>Whitebox Gesamtsystem</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>An dieser Stelle beschreiben Sie die Zerlegung des Gesamtsystems anhand des nachfolgenden Whitebox-Templates.
+Dieses enthält:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Ein Übersichtsdiagramm</p>
+</li>
+<li>
+<p>die Begründung dieser Zerlegung</p>
+</li>
+<li>
+<p>Blackbox-Beschreibungen der hier enthaltenen Bausteine.
+Dafür haben Sie verschiedene Optionen:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>in <em>einer</em> Tabelle, gibt einen kurzen und pragmatischen Überblick über die enthaltenen Bausteine sowie deren Schnittstellen.</p>
+</li>
+<li>
+<p>als Liste von Blackbox-Beschreibungen der Bausteine, gemäß dem Blackbox-Template (siehe unten).
+Diese Liste können Sie, je nach Werkzeug, etwa in Form von Unterkapiteln (Text), Unter-Seiten (Wiki) oder geschachtelten Elementen (Modellierungswerkzeug) darstellen.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>(optional:) wichtige Schnittstellen, die nicht bereits im Blackbox-Template eines der Bausteine erläutert werden, aber für das Verständnis der Whitebox von zentraler Bedeutung sind.
+Aufgrund der vielfältigen Möglichkeiten oder Ausprägungen von Schnittstellen geben wir hierzu kein weiteres Template vor.
+Im schlimmsten Fall müssen Sie Syntax, Semantik, Protokolle, Fehlerverhalten, Restriktionen, Versionen, Qualitätseigenschaften, notwendige Kompatibilitäten und vieles mehr spezifizieren oder beschreiben.
+Im besten Fall kommen Sie mit Beispielen oder einfachen Signaturen zurecht.</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><em><strong>&lt;Übersichtsdiagramm&gt;</strong></em></p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Begründung</dt>
+<dd>
+<p><em>&lt;Erläuternder Text&gt;</em></p>
+</dd>
+<dt class="hdlist1">Enthaltene Bausteine</dt>
+<dd>
+<p><em>&lt;Beschreibung der enthaltenen Bausteine (Blackboxen)&gt;</em></p>
+</dd>
+<dt class="hdlist1">Wichtige Schnittstellen</dt>
+<dd>
+<p><em>&lt;Beschreibung wichtiger Schnittstellen&gt;</em></p>
+</dd>
+</dl>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Hier folgen jetzt Erläuterungen zu Blackboxen der Ebene 1.</p>
+</div>
+<div class="paragraph">
+<p>Falls Sie die tabellarische Beschreibung wählen, so werden Blackboxen darin nur mit Name und Verantwortung nach folgendem Muster beschrieben:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 66.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"><strong>Name</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Verantwortung</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>&lt;Blackbox 1&gt;</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>&lt;Text&gt;</em></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>&lt;Blackbox 2&gt;</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>&lt;Text&gt;</em></p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Falls Sie die ausführliche Liste von Blackbox-Beschreibungen wählen, beschreiben Sie jede wichtige Blackbox in einem eigenen Blackbox-Template.
+Dessen Überschrift ist jeweils der Namen dieser Blackbox.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_name_blackbox_1"><a class="anchor" href="#_name_blackbox_1"></a>&lt;Name Blackbox 1&gt;</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Beschreiben Sie die &lt;Blackbox 1&gt; anhand des folgenden Blackbox-Templates:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Zweck/Verantwortung</p>
+</li>
+<li>
+<p>Schnittstelle(n), sofern diese nicht als eigenständige Beschreibungen herausgezogen sind.
+Hierzu gehören eventuell auch Qualitäts- und Leistungsmerkmale dieser Schnittstelle.</p>
+</li>
+<li>
+<p>(Optional) Qualitäts-/Leistungsmerkmale der Blackbox, beispielsweise Verfügbarkeit, Laufzeitverhalten o. Ä.</p>
+</li>
+<li>
+<p>(Optional) Ablageort/Datei(en)</p>
+</li>
+<li>
+<p>(Optional) Erfüllte Anforderungen, falls Sie Traceability zu Anforderungen benötigen.</p>
+</li>
+<li>
+<p>(Optional) Offene Punkte/Probleme/Risiken</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><em>&lt;Zweck/Verantwortung&gt;</em></p>
+</div>
+<div class="paragraph">
+<p><em>&lt;Schnittstelle(n)&gt;</em></p>
+</div>
+<div class="paragraph">
+<p><em>&lt;(Optional) Qualitäts-/Leistungsmerkmale&gt;</em></p>
+</div>
+<div class="paragraph">
+<p><em>&lt;(Optional) Ablageort/Datei(en)&gt;</em></p>
+</div>
+<div class="paragraph">
+<p><em>&lt;(Optional) Erfüllte Anforderungen&gt;</em></p>
+</div>
+<div class="paragraph">
+<p><em>&lt;(optional) Offene Punkte/Probleme/Risiken&gt;</em></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_name_blackbox_2"><a class="anchor" href="#_name_blackbox_2"></a>&lt;Name Blackbox 2&gt;</h3>
+<div class="paragraph">
+<p><em>&lt;Blackbox-Template&gt;</em></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_name_blackbox_n"><a class="anchor" href="#_name_blackbox_n"></a>&lt;Name Blackbox n&gt;</h3>
+<div class="paragraph">
+<p><em>&lt;Blackbox-Template&gt;</em></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_name_schnittstelle_1"><a class="anchor" href="#_name_schnittstelle_1"></a>&lt;Name Schnittstelle 1&gt;</h3>
+<div class="paragraph">
+<p>&#8230;&#8203;</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_name_schnittstelle_m"><a class="anchor" href="#_name_schnittstelle_m"></a>&lt;Name Schnittstelle m&gt;</h3>
+
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ebene_2"><a class="anchor" href="#_ebene_2"></a>Ebene 2</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Beschreiben Sie den inneren Aufbau (einiger) Bausteine aus Ebene 1 als Whitebox.</p>
+</div>
+<div class="paragraph">
+<p>Welche Bausteine Ihres Systems Sie hier beschreiben, müssen Sie selbst entscheiden.
+Bitte stellen Sie dabei Relevanz vor Vollständigkeit.
+Skizzieren Sie wichtige, überraschende, riskante, komplexe oder besonders volatile Bausteine.
+Normale, einfache oder standardisierte Teile sollten Sie weglassen.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_whitebox_baustein_1"><a class="anchor" href="#_whitebox_baustein_1"></a>Whitebox <em>&lt;Baustein 1&gt;</em></h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>&#8230;&#8203;zeigt das Innenleben von <em>Baustein 1</em>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><em>&lt;Whitebox-Template&gt;</em></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_whitebox_baustein_2"><a class="anchor" href="#_whitebox_baustein_2"></a>Whitebox <em>&lt;Baustein 2&gt;</em></h3>
+<div class="paragraph">
+<p><em>&lt;Whitebox-Template&gt;</em></p>
+</div>
+<div class="paragraph">
+<p>&#8230;&#8203;</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_whitebox_baustein_m"><a class="anchor" href="#_whitebox_baustein_m"></a>Whitebox <em>&lt;Baustein m&gt;</em></h3>
+<div class="paragraph">
+<p><em>&lt;Whitebox-Template&gt;</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ebene_3"><a class="anchor" href="#_ebene_3"></a>Ebene 3</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Beschreiben Sie den inneren Aufbau (einiger) Bausteine aus Ebene 2 als Whitebox.</p>
+</div>
+<div class="paragraph">
+<p>Bei tieferen Gliederungen der Architektur kopieren Sie diesen Teil von arc42 für die weiteren Ebenen.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_whitebox_baustein_x_1"><a class="anchor" href="#_whitebox_baustein_x_1"></a>Whitebox &lt;_Baustein x.1_&gt;</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>&#8230;&#8203;zeigt das Innenleben von <em>Baustein x.1</em>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><em>&lt;Whitebox-Template&gt;</em></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_whitebox_baustein_x_2"><a class="anchor" href="#_whitebox_baustein_x_2"></a>Whitebox &lt;_Baustein x.2_&gt;</h3>
+<div class="paragraph">
+<p><em>&lt;Whitebox-Template&gt;</em></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_whitebox_baustein_y_1"><a class="anchor" href="#_whitebox_baustein_y_1"></a>Whitebox &lt;_Baustein y.1_&gt;</h3>
+<div class="paragraph">
+<p><em>&lt;Whitebox-Template&gt;</em></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>Copyright (c) 2021 gematik GmbH</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

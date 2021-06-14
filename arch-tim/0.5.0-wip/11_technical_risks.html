@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Risiken und technische Schulden :: TI-Messenger</title>
+    <meta name="generator" content="Antora 2.3.4">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <span class="flag"> </span>
+      <a class="navbar-item" href="../..">TI-Messenger</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Resources</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Resource A</a>
+            <a class="navbar-item" href="#">Resource B</a>
+            <a class="navbar-item" href="#">Resource C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="logo"></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="arch-tim" data-version="0.5.0-wip">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="01_introduction_and_goals.html">Architektur TI Messenger</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="asciidoc_cheatsheet.html">Asciidoc Cheatsheet</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="01_introduction_and_goals.html">Einführung und Ziele</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="02_architecture_constraints.html">Randbedingungen</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="03_system_scope_and_context.html">Kontextabgrenzung</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="04_solution_strategy.html">Lösungsstrategie</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="05_building_block_view.html">Bausteinsicht</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="06_runtime_view.html">Laufzeitsicht</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="07_deployment_view.html">Verteilungssicht</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="08_concepts.html">Querschnittliche Konzepte</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="09_design_decisions.html">Entscheidungen</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="10_quality_scenarios.html">Qualität</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="11_technical_risks.html">Risiken</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="12_glossary.html">Glossar</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="about-arc42.html">Über arc42</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Architektur TI Messenger</span>
+    <span class="version">0.5.0-wip</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="01_introduction_and_goals.html">Architektur TI Messenger</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="01_introduction_and_goals.html">0.5.0-wip</a>
+        </li>
+        <li class="version">
+          <a href="../0.1.2/01_introduction_and_goals.html">0.1.2</a>
+        </li>
+        <li class="version">
+          <a href="../0.1.1/01_introduction_and_goals.html">0.1.1</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <a class="title" href="../../arch-commons/10.0.0-wip/Einführung.html">Gesamtarchitektur</a>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../arch-commons/10.0.0-wip/Einführung.html">10.0.0-wip</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="01_introduction_and_goals.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="01_introduction_and_goals.html">Architektur TI Messenger</a></li>
+    <li><a href="11_technical_risks.html">Risiken</a></li>
+  </ul>
+</nav>
+<div class="page-versions">
+  <button class="version-menu-toggle" title="Show other versions of page">0.5.0-wip</button>
+  <div class="version-menu">
+    <a class="version is-current" href="11_technical_risks.html">0.5.0-wip</a>
+    <a class="version" href="../0.1.2/11_technical_risks.html">0.1.2</a>
+    <a class="version" href="../0.1.1/11_technical_risks.html">0.1.1</a>
+  </div>
+</div>
+  <div class="edit-this-page"><a href="https://github.com/kitameg/arch-tim/edit/wip/0.5/modules/ROOT/pages/11_technical_risks.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Risiken und technische Schulden</h1>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Hinweis"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<div class="title">Inhalt</div>
+<p>Eine nach Prioritäten geordnete Liste der erkannten Architekturrisiken und/oder technischen Schulden.</p>
+</div>
+<div class="quoteblock">
+<div class="title">Motivation</div>
+<blockquote>
+Risikomanagement ist Projektmanagement für Erwachsene.
+</blockquote>
+<div class="attribution">
+&#8212; Tim Lister<br>
+<cite>Atlantic Systems Guild</cite>
+</div>
+</div>
+<div class="paragraph">
+<p>Unter diesem Motto sollten Sie Architekturrisiken und/oder technische Schulden gezielt ermitteln, bewerten und Ihren Management-Stakeholdern (z.B. Projektleitung, Product-Owner) transparent machen.</p>
+</div>
+<div class="paragraph">
+<div class="title">Form</div>
+<p>Liste oder Tabelle von Risiken und/oder technischen Schulden, eventuell mit vorgeschlagenen Maßnahmen zur Risikovermeidung, Risikominimierung oder dem Abbau der technischen Schulden.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>Copyright (c) 2021 gematik GmbH</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
