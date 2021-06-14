@@ -27,6 +27,7 @@ Grundsätzlich wird https://semver.org[Semantic Versioning] mit 3 Stellen und gg
 * 1.0.2
 * 3.0.2-cc1 (comment candidate 1)
 * 2.0.0-rc1 (release candidate 1)
+* 3.1.0-wip (work in progress)
 
 Die ersten beiden Stellen definieren den wesentlichen, Scope und InterOp relevante Version. Die dritte Stelle und Labels sollen oft und großzügig verwendet werden. Releases werden mit entsprechenden Version ge-tagt.  
 
